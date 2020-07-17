@@ -1,7 +1,9 @@
 # GLORYHook
 The first Linux hooking framework which allows to merge two binary files into one
 
-[glory-penguin](https://raw.githubusercontent.com/tsarpaul/GLORYHook/master/images/glory-penguin.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/tsarpaul/GLORYHook/master/glory-penguin.png" />
+</p>
 
 ## How is this different?
 Other hooking methods do not allow calling libraries from within the hook, so you must resort to writing shellcode or your own implementation for libc APIs. This is not the case with GLORYHook. Check out hook.c, you can call any libc API you want!
@@ -26,7 +28,7 @@ python3 ./setup.py install
 
 ## Usage
 
-[usage](https://raw.githubusercontent.com/tsarpaul/GLORYHook/master/images/usage.png)
+![usage](https://raw.githubusercontent.com/tsarpaul/GLORYHook/master/usage.png)
 
 1. Define gloryhook_<import_to_hook> in your hook file
 2. `gcc -shared -zrelro -znow hook.c -o hook`
