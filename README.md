@@ -8,7 +8,7 @@ The first Linux hooking framework to allow merging two binary files into one!
 ## How is this different?
 Other hooking methods do not allow calling libraries from within the hook, so you must resort to writing shellcode or your own implementation for libc APIs. This is not the case with GLORYHook. Check out hook.c, you can call any libc API you want!
 
-## Usecases
+## Use cases
 1. Debugging - Can't use LD_PRELOAD? Don't want to mess with injecting dependency shared objects and can't bother installing dependency libraries on the system each time? Just hook your file instantly and ship it with zero extra steps.
 2. File Infection/Backdoor - Can be used as an alternative for an LD_PRELOAD rootkit but with **extra stealth sauce**. Defenders contact me for how to detect.
 
