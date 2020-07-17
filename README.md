@@ -1,5 +1,5 @@
 # GLORYHook
-The first Linux hooking framework which allows to merge two binary files into one!
+The first Linux hooking framework to allow merging two binary files into one!
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/tsarpaul/GLORYHook/master/glory-penguin.png" />
