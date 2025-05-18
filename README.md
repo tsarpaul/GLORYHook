@@ -36,4 +36,4 @@ python3 ./setup.py install
 
 Check hook.c and example.sh.
 
-## GLORY TO YOU!
+## GLORY TO YOU
